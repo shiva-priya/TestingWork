@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FinalTest" duration-ms="38833" started-at="2020-01-09T11:30:01 IST" finished-at="2020-01-09T11:30:39 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="38833" started-at="2020-01-09T11:30:01 IST" finished-at="2020-01-09T11:30:39 IST">
+      <class name="FinalTest">
+        <test-method status="PASS" signature="openSite()[pri:0, instance:FinalTest@91161c7]" name="openSite" is-config="true" duration-ms="4334" started-at="2020-01-09T11:30:01 IST" finished-at="2020-01-09T11:30:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method status="PASS" signature="checkCalendar()[pri:0, instance:FinalTest@91161c7]" name="checkCalendar" duration-ms="8266" started-at="2020-01-09T11:30:05 IST" description="Checks Calendar functions" finished-at="2020-01-09T11:30:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCalendar -->
+        <test-method status="PASS" signature="converter()[pri:0, instance:FinalTest@91161c7]" name="converter" duration-ms="8849" started-at="2020-01-09T11:30:13 IST" description="Enters Two cities and checks the working of Converter" finished-at="2020-01-09T11:30:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converter -->
+        <test-method status="PASS" signature="converterLink()[pri:0, instance:FinalTest@91161c7]" name="converterLink" duration-ms="5823" started-at="2020-01-09T11:30:22 IST" description="Checks Link to Coversion Button" finished-at="2020-01-09T11:30:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converterLink -->
+        <test-method status="PASS" signature="converterSwap()[pri:0, instance:FinalTest@91161c7]" name="converterSwap" duration-ms="6642" started-at="2020-01-09T11:30:28 IST" description="Checks Swap Button" finished-at="2020-01-09T11:30:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- converterSwap -->
+        <test-method status="PASS" signature="localTime()[pri:0, instance:FinalTest@91161c7]" name="localTime" duration-ms="2500" started-at="2020-01-09T11:30:35 IST" description="Checks Local Time Search Result" finished-at="2020-01-09T11:30:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- localTime -->
+        <test-method status="PASS" signature="timer()[pri:0, instance:FinalTest@91161c7]" name="timer" duration-ms="2153" started-at="2020-01-09T11:30:37 IST" description="Checks to Timer Tab" finished-at="2020-01-09T11:30:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timer -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:FinalTest@91161c7]" name="closeAll" is-config="true" duration-ms="225" started-at="2020-01-09T11:30:39 IST" finished-at="2020-01-09T11:30:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- FinalTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- FinalTest -->
+</testng-results>

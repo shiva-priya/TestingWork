@@ -1,0 +1,20 @@
+
+    @Test(dependsOnMethods = {"swapTimes"})
+    public void calendar() throws InterruptedException {
+        System.out.println("in calendar");
+        webDriver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+        WebElement element = webDriver.findElement(By.xpath("//*[@id=\"date-picker\"]/span"));
+        element.click();
+        WebElement monthDiv = webDriver.findElement(By.xpath("/html/body/div[2]/div[1]/table/thead/tr[1]/th[2]"));
+        monthDiv.click();
+        WebElement selectMonth = webDriver.findElement(By.xpath("/html/body/div[2]/div[2]/table/tbody/tr/td/span[12]"));
+        selectMonth.click();
+        WebElement date = webDriver.findElement(By.xpath("/html/body/div[2]/div[1]/table/tbody/tr[4]/td[6]"));
+        date.click();
+
+        WebElement text1 = webDriver.findElement(By.xpath("//*[@id=\"converter-view\"]/div[1]/div[4]/div/div[2]/div/div[2]/div"));
+        Assert.assertTrue(text1.getText().contains("Fri, Dec 25"));
+        System.out.println(text1.getText());
+
+        System.out.println("Checked Calendar");
+    }
